@@ -1,0 +1,17 @@
+Các bước thực hiện BT FastAPI:
+ 1. Thiết lập môi trường
+Cài đặt Node-RED: Cài đặt Node-RED trên máy tính của bạn. Node-RED là một công cụ lập trình trực quan để kết nối các thiết bị, API và dịch vụ trực tuyến theo các dòng công việc.
+Cài đặt Python: Đảm bảo rằng bạn đã cài đặt Python trên máy tính của mình, và có thể sử dụng một môi trường ảo (virtual environment) để quản lý các gói thư viện.
+2. Tạo luồng trong Node-RED
+Cài đặt các node cần thiết: Mở Node-RED và cài đặt các node cần thiết như node-red-contrib-python-function để tích hợp Python với Node-RED.
+Tạo luồng xử lý: Tạo một luồng mới trong Node-RED bao gồm các node sau:
+Inject node: Khởi tạo dữ liệu hoặc tín hiệu để bắt đầu luồng.
+Function node: Xử lý dữ liệu nếu cần thiết.
+Python node: Sử dụng node Python để gọi script Python và xử lý dữ liệu.
+SQL node: Gửi kết quả từ Python tới cơ sở dữ liệu SQL.
+3. Viết script Python
+Xử lý dữ liệu: Viết một script Python để xử lý dữ liệu nhận được từ Node-RED
+Lưu script: Lưu script này vào một file Python
+4. Kết nối với cơ sở dữ liệu SQL
+Cài đặt thư viện SQL: Cài đặt thư viện cần thiết để kết nối với SQL.
+Thêm node SQL trong Node-RED: Sử dụng node SQL trong Node-RED để lưu kết quả xử lý từ script Python vào cơ sở dữ liệu SQL.
